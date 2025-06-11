@@ -40,7 +40,7 @@ function startTimer() {
 }
 
 function checkWastedTime() {
-  if (!alertShown && (timeWasted >= 30 || clickCount >= 20)) {
+  if (!alertShown && (timeWasted >= 30 || clickCount >= 50)) {
     alertShown = true;
     const alertBox = document.getElementById('alertC');
     const backdrop = document.getElementById('backdrop');
